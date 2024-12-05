@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-05T08:33:37 UTC" name="Surefire suite" finished-at="2024-12-05T08:33:42 UTC" duration-ms="5492">
+    <groups>
+    </groups>
+    <test started-at="2024-12-05T08:33:37 UTC" name="Surefire test" finished-at="2024-12-05T08:33:42 UTC" duration-ms="5492">
+      <class name="api_tests.userTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api_tests.userTests@54c562f7]" started-at="2024-12-05T08:33:37 UTC" name="setup" finished-at="2024-12-05T08:33:37 UTC" duration-ms="379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUser()[pri:1, instance:api_tests.userTests@54c562f7]" started-at="2024-12-05T08:33:37 UTC" name="testUser" finished-at="2024-12-05T08:33:41 UTC" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method signature="testGetUserByName()[pri:2, instance:api_tests.userTests@54c562f7]" started-at="2024-12-05T08:33:41 UTC" name="testGetUserByName" finished-at="2024-12-05T08:33:41 UTC" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserByName -->
+        <test-method signature="testputUser()[pri:3, instance:api_tests.userTests@54c562f7]" started-at="2024-12-05T08:33:41 UTC" name="testputUser" finished-at="2024-12-05T08:33:42 UTC" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testputUser -->
+        <test-method signature="testdeletebyUser()[pri:4, instance:api_tests.userTests@54c562f7]" started-at="2024-12-05T08:33:42 UTC" name="testdeletebyUser" finished-at="2024-12-05T08:33:42 UTC" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testdeletebyUser -->
+      </class> <!-- api_tests.userTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
